@@ -1,0 +1,50 @@
+p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /* CSS specifity -   if we have multiple line setting the same property,
+    there's actually a priority that browser follows :- here class name > element name*/
+    .video-title {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 5;
+    }
+    .video-stats {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
+    .maker {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
+    .about {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 284px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .apple-logo {
+        text-align: left;
+    }
+    .apple-text {
+        text-align: center;
+        color: white;
+        padding: 18px;
+        background-color: rgb(227, 65, 64);
+        font-size: 14px;
+
+    }
+    .span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
